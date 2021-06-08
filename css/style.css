@@ -1,0 +1,35 @@
+
+
+body{overflow-x:hidden}
+ul{margin:0;padding:0}
+*{font-family:'Open Sans',sans-serif}
+.container{max-width:960px}
+.tm-handwriting-font{font-family:Damion,cursive}
+.tm-top-header{background:#000;color:#fff}
+.tm-logo-container{padding:10px 0}
+.tm-nav{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;font-weight:700;text-transform:uppercase}
+.tm-nav li{list-style:none;float:left}
+.tm-nav li a{color:#fff;display:inline-block;padding:15px 15px 20px 30px;-webkit-transition:all .3s ease;transition:all .3s ease}
+.tm-nav li a.active,
+.tm-nav li a:focus,.tm-nav li a:hover{color:#c79c60;text-decoration:none}
+.mobile-menu-icon{display:none}.tm-section{margin-bottom:60px}
+.tm-welcome-section{background:url(https://i.pinimg.com/originals/d9/af/b2/d9afb2f0c922f34cb6ae8ad219f53ca3.gif);text-align:center}
+.white-text{color:#fff}
+.gold-text{color:#c79c60}
+.tm-welcome-header{font-size:56px}
+.tm-welcome-header-2{font-family:'Times New Roman',serif;font-size:62px;text-transform:uppercase}
+.tm-welcome-content{margin:150px auto 350px;max-width:650px}
+.tm-welcome-description{text-align:justify}
+.tm-welcome-img-container{text-align:right}
+.tm-position-relative{position:relative}
+.tm-lights-container{position:absolute;top:0;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;width:100%}
+.tm-main-section{padding-top:170px}
+.tm-footer-div-title{color:#fff;font-size:21px;font-weight:700}
+.tm-footer-nav{font-weight:700;text-transform:uppercase}
+.tm-footer-nav ul{list-style:none}
+.tm-footer-nav li{padding:15px 0 0 0}
+.tm-footer-nav li a{color:#fff}
+.tm-footer-nav li a:hover{color:#c79c60;text-decoration:none}
+.tm-social-icon{background-color:#505050;color:#fff;display:inline-block;font-size:20px;-webkit-transition:all .3s ease;transition:all .3s ease;width:35px;height:35px;border-radius:2px;text-align:center;padding-top:4px;margin-right:10px}
+.tm-social-icon:last-child{margin-right:0}.tm-social-icon:focus,.tm-social-icon:hover{background-color:#bb8232;color:#fff}
+.tm-social-icons-container{margin-top:25px}.tm-popular-item{background-size:100% 100%;max-width:294px;margin-top:30px;margin-bottom:80px}.tm-popular-item-img{margin-left:3px}.tm-popular-item-description{padding:0 30px 60px;position:relative;text-align:center}.tm-popular-item-title{color:#aeaeae;-webkit-transition:all .3s ease;transition:all .3s ease}.tm-popular-item:hover .tm-popular-item-title{color:#c79c60}.tm-popular-item:hover hr{border-color:#c79c60;-webkit-transition:all .3s ease;transition:all .3s ease}.tm-popular-item-title{font-size:34px;margin-top:0;margin-bottom:0}.tm-popular-item-hr{margin-top:0;margin-bottom:15px}.tm-section-header-container{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:end;-webkit-align-items:flex-end;-ms-flex-align:end;align-items:flex-end}li.dropdown{display:inline-block}.dropdown-content{display:none;position:absolute;background-color:#000;min-width:160px;box-shadow:0 8px 16px 0 rgba(0,0,0,.2);z-index:1}.dropdown-content a{color:#000;padding:12px 16px;text-decoration:none;display:block;text-align:left}.dropdown-content a:hover{background-color:#000}.dropdown:hover .dropdown-content{display:block}@keyframes colorchangelovers{0%{color:red}25%{color:#bf55ec}50%{color:#fff}100%{color:#bf55ec}}.tm-section-header{width:350px}.tm-hr-container{width:100%;height:41px}.tm-hr{border-color:#c79c60}.tm-product{margin-right:0;margin-left:auto;max-width:652px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;background-color:#fff;padding:20px}.tm-product-text{max-width:325px}.tm-product-title{margin-top:0;margin-bottom:15px;-webkit-transition:all .3s ease;transition:all .3s ease}.tm-product-description{margin-bottom:0;text-align:justify}.tm-product{cursor:pointer;margin-bottom:20px}.tm-product:hover .tm-product-title{color:#c79c60}.form-control{border-color:#c79c60;border-radius:10px}.form-control:focus{border-color:#885d21;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(199,156,96,.6);box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(199,156,96,.6)}.mysend{background-color:transparent;color:#c79c60;margin-right:15px;border:1px solid #c79c60;font-weight:700}@media screen and (max-width:991px){.tm-welcome-content{margin-bottom:250px}.tm-main-section{padding-top:200px}.tm-footer-div{margin-bottom:40px}.tm-product{margin-left:0}}@media screen and (max-width:767px){.tm-nav{display:none}.tm-nav li a{padding-left:35px}.tm-logo-container{margin-left:15px}.mobile-menu-icon{display:block;cursor:pointer;color:#c79c60;font-size:30px;position:fixed;top:15px;right:15px;background-color:rgba(0,0,0,.6);padding:6px 15px;z-index:1000}.tm-nav{height:auto;position:fixed;z-index:1000;top:69px;right:15px;background-color:rgba(0,0,0,.7)}.tm-nav li{float:none}.tm-nav li a{display:block;padding-bottom:15px;margin-bottom:5px}.tm-nav li a.active{background-position:7% 30%,40% bottom}.tm-lights-container{-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}.tm-welcome-header{font-size:40px}.tm-welcome-img-container{margin-top:30px;text-align:left}.tm-main-section{padding-top:130px}.tm-section-header-container{-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}}@media screen and (max-width:650px){.tm-welcome-content{margin-bottom:190px}.tm-product{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.tm-product-text{max-width:100%;margin-top:20px;margin-bottom:15px;text-align:center}.tm-product-description{text-align:center}}@media screen and (max-width:550px){.tm-welcome-content{margin-bottom:130px}}@media screen and (max-width:450px){.tm-welcome-content{margin-bottom:90px}}@media screen and (max-width:370px){.tm-welcome-content{margin-bottom:60px}}

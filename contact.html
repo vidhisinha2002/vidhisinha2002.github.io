@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CONTACT</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+  </head>
+  <body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries 
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
+-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+ var firebaseConfig = {
+    apiKey: "AIzaSyCFZkb3mSr9bijVKwQVfMOqANwbUjPXzus",
+    authDomain: "detective-fa9b3.firebaseapp.com",
+    databaseURL: "https://detective-fa9b3-default-rtdb.firebaseio.com",
+    projectId: "detective-fa9b3",
+    storageBucket: "detective-fa9b3.appspot.com",
+    messagingSenderId: "294145337787",
+    appId: "1:294145337787:web:5aed939cc04a5a82213c9e"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  //firebase.analytics();
+
+
+
+  function writeData() {
+    firebase.database().ref("START").push({
+      name:document.getElementById("contact-name").value,
+      email:document.getElementById("contact-email").value,
+      subject: document.getElementById("contact-subject").value,
+      message: document.getElementById("contact-message").value,
+    });
+    alert("Your Message is successfully sent!")
+  }
+
+
+</script>
+    <div class="tm-top-header">
+      <div class="container">
+        <div class="row">
+          <div class="tm-top-header-inner">
+            </div>
+            <div class="mobile-menu-icon">
+              <i class="fa fa-bars"></i>
+            </div>
+            <nav class="tm-nav">
+              <ul>
+                <li><a href="index.html" >HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+               
+                <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" >CONTACT</a>
+    <div class="dropdown-content">
+      <a href="mailto:vidhisinha2002@gmail.com">Mail</a>
+      <a href="tel:123-456-7890">Phone</a>
+      <a href="others.html" class="active">Others</a>
+    </div>
+  </li>
+
+
+            <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">BLOG</a>
+    <div class="dropdown-content">
+      <a href="https://itsbeingyou23.wordpress.com/2020/09/29/dreams/">Dreams</a>
+      <a href="https://itsbeingyou23.wordpress.com/2020/11/09/image-processing/">Image Processing</a>
+      <a href="https://itsbeingyou23.wordpress.com/2020/11/18/computational-intelligence/">Computational Intelligence</a>
+    </div>
+  </li>
+              
+                <li><a href="skills.html">SKILLS</a></li>
+                <li><a href=" experience.html">EXPERIENCE</a></li>
+              </ul>
+            </nav>   
+          </div>           
+        </div>    
+      </div>
+    </div>
+    <section class="tm-welcome-section">
+      <div class="container tm-position-relative">
+        <div class="tm-lights-container">
+        </div>        
+        <div class="row tm-welcome-content">
+          <h2 class="gold-text tm-welcome-header-2">Contact</h2>
+                        <h3 class="tm-footer-div-title">Get Social</h3>
+              <div class="tm-social-icons-container">
+                <a href="https://www.instagram.com/vidhisinha2002/" class="tm-social-icon"><i class="fa fa-instagram"></i></a>
+                <a href="https://github.com/vidhisinha2002" class="tm-social-icon"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/vidhi-sinha-226358191/" class="tm-social-icon"><i class="fa fa-linkedin"></i></a>
+              </div>        
+  
+
+      <div class="container" id="main">
+        <section class="tm-section row">
+          <h2 class="gold-text tm-welcome-header-2"></h2>
+          <form action="#" method="post" class="tm-contact-form">
+            <div class="col-lg-6 col-md-6">
+              <div class="form-group">
+                <input type="text" id="contact_name" class="form-control" placeholder="NAME" />
+              </div>
+              <div class="form-group">
+                <input type="email" id="contact_email" class="form-control" placeholder="EMAIL" />
+              </div>
+              <div class="form-group">
+                <input type="text" id="contact_subject" class="form-control" placeholder="SUBJECT" />
+              </div>
+              <div class="form-group">
+                <textarea id="contact_message" class="form-control" rows="6" placeholder="MESSAGE"></textarea>
+              </div>
+              <div class="form-group">
+                <button class="mysend"  onclick="writeData()">Send message</button> 
+              </div>               
+            </div>
+
+        </section>
+      </div>
+        </section>
+   
+
+      </div>       
+   <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      <!-- jQuery -->
+   <script type="text/javascript" src="js/t-script.js"></script>     
+   <script>
+
+      </script>
+    </body>
+    </html>
